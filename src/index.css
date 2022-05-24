@@ -1,0 +1,604 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  background-color: white;
+}
+
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+article > * + * {
+  margin-top: 1em;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+.presaleGrid {
+  margin-left: 2rem;
+  margin-top: 80px;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-gap: 1rem;
+  margin-right: 2rem;
+}
+
+.presaleGridMain {
+  background: #fff;
+  padding: 1rem;
+}
+
+.presaleGridSidebar { 
+  height: fit-content;
+}
+
+.presaleSidebarFlexed2 {
+  margin-top: 2rem;
+  background: #fff;
+  padding: 1rem;
+}
+
+.presaleFlexedItem {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: "1px solid #eee";
+  padding-bottom: "2px";
+}
+
+.presaleSidebarFlexed {
+  background: #fff;
+  padding: 1rem;
+}
+
+.presaleMainHeader {
+  display: flex;
+  
+}
+
+.presaleProfile {
+  display: flex;
+}
+
+.presaleProfile h1 {
+  font-size: 2.3rem;
+  padding-right: 1rem;
+}
+
+
+.presaleProfileDiv {
+  display: flex;
+  flex-direction: column;
+}
+
+.presaleImg {
+  font-size: 4rem;
+  padding-right: 1rem;
+}
+
+.presaleDetails {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 2px;
+  margin-bottom: 1rem;
+}
+
+.presaleDetails p {
+  font-size: 16px;
+}
+
+.presaleDetailsDiv {
+  margin-top: 4rem;
+}
+
+.presaleProfileDiv p {
+  font-size: 16px;
+}
+
+.presaleProfile a {
+  padding: 10px;  
+}
+
+.presaleSidebarFlexed {
+  text-align: center;
+  font-size: 14px;
+}
+
+.presaleSidebarFlexed p {
+  margin-bottom: 1rem;
+}
+
+.presaleicons {
+  font-size: 1.5rem;
+  padding-top: 1rem;
+}
+
+.disqusContainer {
+  margin-top: 3rem;
+  background: #fff;
+  padding: 1rem;
+  /* margin-left: 16rem;
+  margin-right: 2rem; */
+}
+
+.piechartDiv {  
+  margin-top: 3rem;
+  padding: 3rem;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.status-wrapper {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+.status-dot.incoming {
+  background-color: rgb(253, 250, 234);
+  color: #B49658;
+}
+
+.status-dot {
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  vertical-align: middle;
+  padding: 4px 8px;
+  border-radius: 50px;
+}
+.is-flex {
+  display: flex !important;
+}
+.status-dot svg {
+  font-size: 8px;
+  margin-right: 4px;
+}
+.ant-statistic-content-value {
+  color: rgb(24, 144, 255) !important;
+}
+.is-size-7 {
+  font-size: 0.75rem !important;
+}
+.is-align-items-center {
+  align-items: center !important;
+}
+.is-flex-grow-1 {
+  flex-grow: 1 !important;
+}
+.has-text-right {
+  text-align: right !important;
+}
+.has-text-center {
+  text-align: center !important;
+}
+.has-text-left {
+  text-align: left !important;
+}
+.is-flex-grow-1 {
+  flex-grow: 1 !important;
+}
+
+@media screen and (max-width:1200px) {
+  .presaleGrid {
+    display: block;
+  }
+
+  .presaleGridSidebar {
+    margin-top: 2rem;
+  }
+/* 
+  .noneShowing {
+    display: none;
+  }
+
+  .mobileMenu {
+    display: none;
+  } */
+
+  /* .presaleGrid {
+    margin-left: 2rem;    
+    margin-right: 2rem;
+  } */
+}
+/* .mobileMenu {
+  z-index: 99;
+  width: 200px;
+}
+@media screen and (max-width:768px) {
+  .mobileMenu {
+    z-index: 99;
+    max-width: 40px;
+  }
+} */
+
+.liquidityLink {
+  cursor: pointer;
+    display: inline-flex;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 600;
+    -webkit-box-pack: center;
+    justify-content: center;
+    letter-spacing: 0.03em;
+    line-height: 1;
+    opacity: 1;
+    outline: 0px;
+    transition: background-color 0.2s ease 0s, opacity 0.2s ease 0s;
+    height: 32px;
+    padding: 0px 16px;
+    background-color: transparent;
+    border: 2px solid rgb(31, 199, 212);
+    box-shadow: none;
+    color: rgb(31, 199, 212);
+}
+
+.liquidity {
+  /* width: 65%;
+  margin: 5rem auto; */
+  
+   
+    height: 100vh;
+    
+}
+
+.liquidityHeader {
+  background: #fff;
+  /* padding: 2rem; */
+  border-radius: 24px;
+    max-width: 436px;
+    width: 100%;
+    margin: 10rem auto 0rem auto;
+    z-index: 1;
+}
+
+.liq-btn {
+  border: 0px;
+  border-radius: 16px;
+  box-shadow: rgb(14 14 44 / 40%) 0px -1px 0px 0px inset;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 600;
+  -webkit-box-pack: center;
+  justify-content: center;
+  letter-spacing: 0.03em;
+  line-height: 1;
+  opacity: 1;
+  outline: 0px;
+  transition: background-color 0.2s ease 0s, opacity 0.2s ease 0s;
+  height: 48px;
+  padding: 0px 24px;
+  background-color: rgb(31, 199, 212);
+  color: white;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.stakeHeader {
+    border-radius: 24px;
+    max-width: 720px;
+    width: 100%;
+    margin: 2rem auto;
+    padding: 1rem;
+    /* padding-top: 2rem; */
+    background: #334;
+    color: #fff;
+}
+
+.stakeHeader button {
+  padding: 8px;
+    /* width: 100%; */
+    font-weight: 500;
+    text-align: center;
+    border-radius: 8px;
+    outline: none;
+    text-decoration: none;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    -webkit-box-align: center;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    border: 1px solid rgb(237, 238, 242);
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+.pools {
+  width: 100%;
+  max-width: 720px;
+  margin: 2rem auto;
+}
+
+.poolInput {
+  padding: 16px;
+  -webkit-box-align: center;
+  align-items: center;
+  width: 100%;
+  white-space: nowrap;
+  background: none;
+  outline: none;
+  border-radius: 20px;
+  color: #334;
+  border: 1px solid rgb(33, 114, 229);
+  appearance: none;
+  font-size: 18px;
+  transition: border 100ms ease 0s;
+}
+
+.poolDetails {
+  border-radius: 24px;
+  max-width: 720px;
+  width: 100%;
+  margin: 2rem auto;
+  padding: 1rem;
+  /* padding-top: 2rem; */
+  background: #eee;
+}
+
+.poolName {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.poolName button {
+  padding: 8px;
+  /* width: 100%; */
+  font-weight: 500;
+  text-align: center;
+  border-radius: 8px;
+  outline: none;
+  border: 1px solid transparent;
+  text-decoration: none;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  -webkit-box-align: center;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+  background-color: rgb(33, 114, 229);
+  color: white;
+}
+
+.poolNameDetail {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.farmsDiv {
+  margin-top: 7rem;  
+  padding-bottom: 5rem;
+  background-color: white;
+  margin-left: 2rem;
+  margin-top: 80px;
+  margin-right: 2rem;
+}
+
+.launchPadList {
+
+}
+
+.checkboxDiv {
+  -webkit-box-align: center;
+  align-items: center;
+  background-color: rgb(55, 47, 71);
+  border-radius: 24px;
+  box-shadow: rgb(74 74 104 / 10%) 0px 2px 2px -1px inset;
+  cursor: pointer;
+  display: inline-flex;
+  height: 20px;
+  position: relative;
+  transition: background-color 200ms ease 0s;
+  width: 36px;
+}
+
+.checkboxDiv input {
+  cursor: pointer;
+  opacity: 0;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  z-index: 3;
+}
+
+.checkboxDiv .nut{
+  background-color: rgb(21 189 239);
+  border-radius: 50%;
+  cursor: pointer;
+  height: 16px;
+  left: 2px;
+  position: absolute;
+  top: 2px;
+  transition: left 200ms ease-in 0s;
+  width: 16px;
+  z-index: 1;
+}
+
+.staked  {
+  font-weight: 400;
+  line-height: 1.5;
+  font-size: 16px;
+  margin-left: 8px;
+}
+
+.liveStake {
+  background-color: rgb(55, 47, 71);
+  border-radius: 16px;
+  display: inline-flex;
+  border: 1px solid rgb(38, 33, 48);
+  width: auto;
+  margin-left: 2rem;
+}
+
+.liveLink {
+  position: relative;
+  -webkit-box-align: center;
+  align-items: center;
+  border: 0px;
+  border-radius: 16px;
+  box-shadow: rgb(14 14 44 / 40%) 0px -1px 0px 0px inset;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 600;
+  -webkit-box-pack: center;
+  justify-content: center;
+  letter-spacing: 0.03em;
+  line-height: 1;
+  opacity: 1;
+  outline: 0px;
+  transition: background-color 0.2s ease 0s, opacity 0.2s ease 0s;
+  height: 32px;
+  padding: 0px 16px;
+  background-color: #fff;
+  color: rgb(39, 38, 44);
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.liveStake span {
+  display: inline-flex;
+  position: relative;
+  align-items: center;
+  color: white;
+  padding: 0 10px;
+}
+
+.farmInputDiv {
+  flex: 2 1;
+  display: flex;
+  align-items: flex-end;  
+}
+
+.farmFormInput {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+
+.farmFormSelect {
+  display: flex;
+  margin: 0 10px;
+}
+
+.farmInputDivIcons {
+  margin-right: 2rem;
+}
+
+.farmFormSelect p {
+  font-weight: 600;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+
+.farmFormSelectDiv {
+  margin: 0 1rem;
+}
+
+.farmFormSelectDiv select, .farmFormInputDiv input {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  padding: 0px 16px;
+  box-shadow: rgb(74 74 104 / 10%) 0px 2px 2px -1px inset;
+  border: 1px solid rgb(38, 33, 48);
+  border-radius: 16px;
+  transition: border-radius 0.15s ease 0s;
+}
+
+.farmGridDiv {
+  background: #fff;
+  padding: 4rem 2rem;
+    border-radius: 1rem;
+    border: 1px solid #f0f0f0;
+}
+
+.farmGrid {
+  /* display: grid;
+  grid-template-columns: 2fr 1fr; */
+  /* padding: 3rem 0; */
+  
+}
+
+.farmGridDetails {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #f0f0f0;
+}
+.fWggAe {
+  background-color: rgb(238, 238, 238);
+}
+.hahFfL {
+  padding: 24px;
+}
+.gCSNOC {
+  color: rgb(122, 110, 170);
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  font-size: 16px;
+}

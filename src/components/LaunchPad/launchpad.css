@@ -1,0 +1,478 @@
+.createLaunch  {
+    margin-top: 5rem;    
+    padding: 2rem;
+    margin: 6rem 2rem;
+}
+
+.createLaunch ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    margin-bottom: 6rem;
+}
+
+.createLaunch ul li {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.createLaunch ul li p {
+    margin-right: 10px;
+}
+
+.createLaunch ul li div p {
+    font-size: 14px;
+}
+
+.currentCreate {
+    background: blue;   
+    height: 32px;
+    width: 32px;
+    border-radius: 32px;
+    text-align: center;
+    color: #fff;
+}
+
+.nextCreate {
+    background: #fff;   
+    height: 32px;
+    width: 32px;
+    border-radius: 32px;
+    text-align: center;
+    color: #334;
+}
+
+.createbefore {
+    position: relative;
+
+}
+
+.createbefore::before {
+    position: absolute;
+    content: " ";
+    height: 100px;
+    width: 100px;
+}
+
+.createForm {
+    background: #fff;
+    padding: 2rem;
+    margin-top: 4rem;
+}
+
+.createForm .labelForm {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2px 0px 1rem 0;
+}
+
+.createForm form input {
+    width: 100%;
+    background: none;
+    outline: none;
+    padding: 4.5px 11px;
+    color: rgba(0, 0, 0, 0.85);
+    /* border: none; */    
+    border: 1px solid #d9d9d9;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.labelForm button {
+    padding: 4px 15px;
+    border-radius: 5px;
+    border: 1px solid #d9d9d9;
+    box-shadow: 0 2px 0 rgb(0 0 0 / 2%);
+    font-weight: 400;
+    cursor: pointer;
+    font-size: 14px;
+    background: #fff;
+    transition: all .3s cubic-bezier(.645,.045,.355,1);
+}
+
+.nextBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.nextBtn button {
+    padding: 4px 15px;
+    border-radius: 5px;
+    box-shadow: none;
+    font-weight: 400;
+    cursor: pointer;
+    font-size: 14px;
+    background: rgba(0, 0, 0, 0.1);
+    color: rgba(0, 0, 0, 0.3);
+    transition: all .3s cubic-bezier(.645,.045,.355,1);
+}
+
+.nextCreat {
+    background: #fff;
+    padding: 9px;
+    border-radius: 50%;
+    height: 32px;
+    width: 32px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Create Token */
+.launchpadToken {
+    margin: 6rem 2rem 0 2rem;
+    padding: 2rem;
+    background: #fff;
+}
+
+.launchpadToken form label {
+    display: block;
+    margin-top: 2rem;
+}
+
+.launchpadToken form input {
+    width: 100%;
+    background: none;
+    border: 1px solid #d9d9d9;
+    border-radius: 5px;
+    padding: 4.5px 11px;
+    font-size: 14px;
+}
+
+.launchpadToken form select {
+    width: 100%;
+    background: none;
+    border: 1px solid #d9d9d9;
+    border-radius: 5px;
+    padding: 4.5px 11px;
+    font-size: 14px;
+}
+.launchpadToken form .input:hover, .launchpadToken form .select select:hover {
+    border-color: #ffd1c9;
+}
+
+.flexedInput {
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+}
+
+.selectInput {
+    width: 0%;
+}
+
+/* LaunchPad List */
+.launchPadListDiv {
+    margin-top: 7rem;  
+    padding-bottom: 5rem;
+    background-color: white;
+    margin-left: 2rem;
+    margin-top: 80px;
+    margin-right: 2rem;
+}
+
+.launchPadList {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.padListNav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #d9d9d9;
+}
+
+.padListInput {
+    margin-top: 4rem;
+}
+
+.padListInputDiv {
+    flex: 3;
+    
+    padding-right: 20px;
+}
+
+.padListSelect {
+    flex: 1;
+}
+
+.padListSelect select {
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    padding: 4px 11px;
+}
+
+.padListInput form {
+    display: flex;
+    grid-template-columns: 2fr 1fr;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.padListInput form input {
+    width: 100%;
+    font-size: 14px;
+    line-height: 1.5715;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    padding: 4px 11px;
+}
+
+.myContributionDiv {
+    margin-top: 7rem;
+    height: 100vh;
+}
+
+.padListGrid {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 1rem;
+    margin-top: 4rem;
+}
+
+.grid {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 1rem;
+    border: 1px solid #f0f0f0;
+}
+
+.padListGridImgDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.padListGridImg {
+    border-radius: 50rem;    
+    padding: 1rem;
+    background: #334;
+    color: #fff;
+}
+
+.padListGridStatus {
+    font-size: 12px;
+    background: #334;
+    border-radius: 8px;
+    padding: 3px;
+    color: #d9d9d9;
+}
+
+.launchPadList h1 {
+    font-size: 40px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.85);
+    line-height: 1.1;
+    margin: 1.5rem 0 0.25rem;
+}
+
+.padlink {
+    padding: 16px 10px;
+    font-size: 16px;
+}
+
+.padlink a {
+    cursor: pointer;
+}
+
+.grid h3 {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+progress#file {
+    width: 100%;
+}
+
+.padListBtn {
+    border: none;
+    border-radius: 16px;
+    cursor: pointer;
+    letter-spacing: .03em;
+    line-height: 1;
+    opacity: 1;
+    outline: 0;
+    height: 40px;
+    padding: 10px 16px;
+}
+
+.myContribution p {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 3rem;
+}
+
+@media screen and (max-width:1024px) {
+    .createLaunch ul {
+        display: none;  
+    }
+    
+}
+
+/* Launchpad form */
+.launchpadformdiv {
+    
+    width: 100%;
+    margin:0;
+    background: #fff;
+    padding: 2rem;
+}
+
+.launchpadFormFlex {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+}
+
+.padFormDiv {
+    margin-top: 1.6rem;
+}
+
+.ant-form-item {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: rgba(0, 0, 0, 0.85);
+    font-size: 14px;
+    font-variant: tabular-nums;
+    line-height: 1.5715;
+    list-style: none;
+    font-feature-settings: 'tnum', "tnum";
+    margin-bottom: 0px;
+    vertical-align: top;
+    transition: margin-bottom 0.3s 0.017s linear;
+}
+
+.padFormBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.padFormDiv label {
+    font-weight: 600;  
+    display: block;  
+}
+@media screen and (max-width:600px) {
+    .createLaunch {
+        margin-top: 5rem;
+        padding: 0rem;
+        margin: 6rem 1rem;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .padListGrid {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);        
+    }
+
+    .launchPadList {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .launchpadFormFlex {
+        display: block;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1rem;
+    }
+}
+
+@media screen and (max-width:520px) {
+    .padListInput form {
+        display: block;        
+    }
+
+    .padListInputDiv {
+        flex: 3 1;
+        padding-right: 0px;
+        margin-bottom: 1rem;
+    }
+}
+.status-wrapper {
+  position: absolute; 
+  right: 0px;
+  top: 0px;
+}
+.status-dot.incoming {
+  background-color: rgb(253, 250, 234);
+  color: #B49658;
+}
+
+.status-dot {
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  vertical-align: middle;
+  padding: 4px 8px;
+  border-radius: 50px;
+}
+.is-flex {
+  display: flex !important;
+}
+.status-dot svg {
+  font-size: 8px;
+  margin-right: 4px;
+}
+.ant-statistic-content-value {
+  color: rgb(24, 144, 255) !important;
+}
+.is-size-7 {
+  font-size: 0.75rem !important;
+}
+.is-align-items-center {
+  align-items: center !important;
+}
+.is-flex-grow-1 {
+  flex-grow: 1 !important;
+}
+.has-text-right {
+  text-align: right !important;
+}
+.has-text-center {
+  text-align: center !important;
+}
+.has-text-left {
+  text-align: left !important;
+}
+.is-flex-grow-1 {
+  flex-grow: 1 !important;
+}
+.media-left {
+  margin-right: 1rem;
+}
+.media-left, .media-right {
+  flex: 0 0 auto;
+}
+.image.is-48x48 {
+  height: 48px;
+  width: 48px;
+}
+.image {
+  display: block;
+  position: relative;
+}
+.media-content {
+  flex: 1 1 auto;
+  text-align: inherit;
+}
+.is-justify-content-flex-end {
+  justify-content: flex-end !important;
+}
+.ant-statistic-content-value {
+    font-size: 14px;
+    position: relative;
+    top: -15px;
+}
